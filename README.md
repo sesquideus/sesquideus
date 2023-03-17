@@ -1,4 +1,4 @@
-Welcome to my GitHub profile README. My civil name is Martin Baláž and I can be often find under the alias @sesquideusň
+Welcome to my GitHub profile README. My civil name is Martin Baláž and I can be often find under the alias @sesquideus.
 
 - I am an astronomer by both profession and passion, carefully balancing somewhere between physics, mathematics and computer science.
 - Currently I work as a pipeline developer for METIS, Mid-Infrared [ELT](https://en.wikipedia.org/wiki/Extremely_Large_Telescope)
