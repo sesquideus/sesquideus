@@ -1,7 +1,11 @@
-- Martin Baláž or @sesquideus here and at many other places
-- I am an astronomer by both profession and passion, carefully balancing between physics, mathematics and computer science.
-- Currently I work as a pipeline developer for the Mid-Infrared ELT Imager and Spectrograph at the University of Vienna.
-- In my free time I am also the lead software engineer of the AMOS project at Comenius University and a shadow backend developer for NGO [Trojsten](https://trojsten.sk/).
+Welcome to my GitHub profile README. My civil name is Martin Baláž and I can be often find under the alias @sesquideusň
+
+- I am an astronomer by both profession and passion, carefully balancing somewhere between physics, mathematics and computer science.
+- Currently I work as a pipeline developer for METIS, Mid-Infrared [ELT](https://en.wikipedia.org/wiki/Extremely_Large_Telescope)
+  Imager and Spectrograph at the University of Vienna.
+- In my free time I am also the lead software engineer of the
+  [AMOS](https://fmph.uniba.sk/en/microsites/daa/division-of-astronomy-and-astrophysics/research/meteors/amos/)
+  project at Comenius University and a backend developer for NGO [Trojsten](https://trojsten.sk/).
 
 Among my projects you may find
 - ASMODEUS or All-Sky Meteor Observation Detection Efficiency Simulator, a virtual meteor observatory and its C++/Qt port
