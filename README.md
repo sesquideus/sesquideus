@@ -1,22 +1,46 @@
-Welcome to my GitHub profile README. My civil name is Martin Baláž and I can be often find under the alias @sesquideus.
+Welcome to my GitHub profile README. My civil name is Martin Baláž and I can be often find under the alias @sesquideus. Everywhere.
 
-- I am an astronomer by both profession and passion, carefully balancing somewhere between physics, mathematics and computer science.
+- I am something between an astronomer and software engineer by both profession and passion.
+- I like to think about myself as carefully balancing somewhere between physics, mathematics and programming.
 - Currently I work as a pipeline developer for METIS, Mid-Infrared [ELT](https://en.wikipedia.org/wiki/Extremely_Large_Telescope)
-  Imager and Spectrograph at the University of Vienna.
-- In my free time I am also the lead software engineer of the
-  [AMOS](https://fmph.uniba.sk/en/microsites/daa/division-of-astronomy-and-astrophysics/research/meteors/amos/)
-  project at Comenius University and a backend developer for NGO [Trojsten](https://trojsten.sk/).
+  Imager and Spectrograph for the [A*V](https://astarvienna.github.io) team at the University of Vienna.
+- In my semi-free time I am also the software engineer of the AMOS project at Comenius University
+  and I cannot get myself to quit working for the education NGO [Trojsten](https://trojsten.sk/).
 
-Among my projects you may find
-- ASMODEUS or All-Sky Meteor Observation Detection Efficiency Simulator, a virtual meteor observatory and its C++/Qt port
-- DeGeŠ, an automated document build system for competitions (correspondence [seminars](https://fks.sk/) and [Náboj](https://physics.naboj.org/)),
-  lecture / tutorial materials or virtually anything that requires highly structured and templated LaTeX/HTML documents.
-  Written in XeLaTeX, make and Python + jinja2, uses lots of pandoc
-- ubi, a kernel density estimation framework for arbitrary multidimensional metric spaces (C++)
-- AMOS database and dashboard that monitors and stores data from the network of all-sky meteor cameras
-  [AMOS](https://fmph.uniba.sk/en/microsites/daa/division-of-astronomy-and-astrophysics/research/meteors/amos/)
-- vasco, a virtual all-sky corrector plate for all-sky cameras
+### Meteors
+Most of my previous work revolved around meteors, as I did both my masters and PhD in meteor science.
 
+In my semi-free time I am still the software lead of the [AMOS](https://fmph.uniba.sk/en/microsites/daa/division-of-astronomy-and-astrophysics/research/meteors/amos/) project,
+a network of automated meteor camera stations and the central server.
+
+- [`ASMODEUS`](https://github.com/sesquideus/asmodeus/) or All-Sky Meteor Observation Detection Efficiency Simulator, a virtual meteor observatory that
+  was used in my master thesis for determination of meteoroid flux and selection bias effects. Also includes its port to `C++/Qt`.
+- [`AMOS client`](https://github.com/sesquideus/amos-client/), a persistent C++/Qt application that controls the collection of meteor data at remote stations.
+  It communicates with the custom board over a serial port, starts and stops the camera and sends periodic heartbeats and collected data to the central server. `C++/Qt`
+- [`AMOS sightings`](https://github.com/sesquideus/amos-sightings/), a very simple script for backup of meteor data `Python`
+- [`AMOS server`](https://github.com/sesquideus/amos-server/), the central website which manages the meteor sighting database and housekeeping data `Python/Django`
+- [`vasco`](https://github.com/sesquideus/vasco/), a virtual all-sky corrector plate for all-sky cameras, `Python/PyQt6`
+- [`ubi`](https://github.com/sesquideus/ubi), a kernel density estimation framework for arbitrary metric spaces (C++),
+  which was the core of my dissertation thesis. There it was used to find the probability density function of incoming meteors.
+
+### Trojsten
+Since my university studies I have been a part of the NGO [Trojsten](https://trojsten.sk/),
+which organizes multiple events and competitions in mathematics, physics, programming and puzzle hunts.
+
+- [`dgs`](https://github.com/trojsten/dgs/), an automated document compositor / templating system.
+  Written in `XeLaTeX`, `make` and `Python`, it makes heavy use of `jinja2` templating and `pandoc`.
+- multiple simple simulations that were used in physics problems
+  - `gravity`, a 2D solar system simulator
+  - `phase-portraits`, a simulator of simple physical systems and their phase portraits
+  - `spectre`, a simulator of electromagnetic spectra (unfinished)
+
+
+Apart from daily tasks I tried to re-develop the way how problems and their solutions are written and published.
+
+<!-- I realized that in highly structured, repetitive documents lots of metadata can be kept in the directory structure itself;
+that many parts can (and _should_) be highly reusable; and most importantly that there should be a single source of truth.
+The same applies to many other documents, such as lecture materials, handouts or homework sheets for students. -->
+ 
 <!---
 sesquideus/sesquideus is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
