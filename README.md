@@ -14,18 +14,19 @@ In my semi-free time I am still the software lead of the [AMOS](https://fmph.uni
 a network of automated meteor camera stations and the central server.
 
 - [`ASMODEUS`](https://github.com/sesquideus/asmodeus/) or All-Sky Meteor Observation Detection Efficiency Simulator, a virtual meteor observatory that
-  was used in my master thesis for determination of meteoroid flux and selection bias effects. Also includes its port to `C++/Qt`.
+  was used in my master thesis for determination of meteoroid flux and selection bias effects. Also includes its port to `C++/Qt`
 - [`AMOS client`](https://github.com/sesquideus/amos-client/), a persistent C++/Qt application that controls the collection of meteor data at remote stations.
-  It communicates with the custom board over a serial port, starts and stops the camera and sends periodic heartbeats and collected data to the central server. `C++/Qt`
+  It communicates with the custom board over a serial port, starts and stops the camera and sends periodic heartbeats and collected data to the central server `C++/Qt`
 - [`AMOS sightings`](https://github.com/sesquideus/amos-sightings/), a very simple script for backup of meteor data `Python`
 - [`AMOS server`](https://github.com/sesquideus/amos-server/), the central website which manages the meteor sighting database and housekeeping data `Python/Django`
-- [`vasco`](https://github.com/sesquideus/vasco/), a virtual all-sky corrector plate for all-sky cameras, `Python/PyQt6`
-- [`ubi`](https://github.com/sesquideus/ubi), a kernel density estimation framework for arbitrary metric spaces (C++),
-  which was the core of my dissertation thesis. There it was used to find the probability density function of incoming meteors.
+- [`vasco`](https://github.com/sesquideus/vasco/), a virtual all-sky corrector plate for all-sky cameras `Python/PyQt6`
+- [`ubi`](https://github.com/sesquideus/ubi), a kernel density estimation framework for arbitrary metric spaces,
+  which was the core of my dissertation thesis. There it was used to find the probability density function of incoming meteors.  `C++`
 
 ### Trojsten
 Since my university studies I have been a part of the NGO [Trojsten](https://trojsten.sk/),
 which organizes multiple events and competitions in mathematics, physics, programming and puzzle hunts.
+Apart from performing daily tasks, I re-developed the way how problems and their solutions are written and published.
 
 - [`dgs`](https://github.com/trojsten/dgs/), an automated document compositor / templating system.
   Written in `XeLaTeX`, `make` and `Python`, it makes heavy use of `jinja2` templating and `pandoc`.
@@ -34,8 +35,10 @@ which organizes multiple events and competitions in mathematics, physics, progra
   - `phase-portraits`, a simulator of simple physical systems and their phase portraits
   - `spectre`, a simulator of electromagnetic spectra (unfinished)
 
-
-Apart from daily tasks I tried to re-develop the way how problems and their solutions are written and published.
+### Miscellanea
+- [`argparsedirs`](https://github.com/sesquideus/argparsedirs/), a microscopic utility that enables `argparse` to take directories as inputs `Python`
+- [`physics-fields`](https://github.com/sesquideus/physics-fields/), a package for evaluating scalar and vector fields `Python`
+- [`aws`](https://github.com/sesquideus/aws/), a simple website for the annual Astroworkshop for students at Comenius University `Python/Django`
 
 <!-- I realized that in highly structured, repetitive documents lots of metadata can be kept in the directory structure itself;
 that many parts can (and _should_) be highly reusable; and most importantly that there should be a single source of truth.
