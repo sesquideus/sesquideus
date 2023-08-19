@@ -38,7 +38,7 @@ Apart from performing daily tasks, I re-developed the way how problems and their
 ### Miscellanea
 - [`argparsedirs`](https://github.com/sesquideus/argparsedirs/), a microscopic utility that enables `argparse` to take directories as inputs `Python`
 - [`physics-fields`](https://github.com/sesquideus/physics-fields/), a package for evaluating scalar and vector fields `Python`
-- [`aws`](https://github.com/sesquideus/aws/), a simple website for the annual Astroworkshop for students at Comenius University `Python/Django`
+- [`astroworkshop`](https://github.com/sesquideus/astroworkshop/), a simple website for the annual Astroworkshop for students at Comenius University `Python/Django`
 
 <!-- I realized that in highly structured, repetitive documents lots of metadata can be kept in the directory structure itself;
 that many parts can (and _should_) be highly reusable; and most importantly that there should be a single source of truth.
