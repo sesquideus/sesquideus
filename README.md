@@ -27,12 +27,11 @@ a network of automated meteor camera stations.
 Since the beginning of my bachelor's I have been a part of the NGO [Trojsten](https://trojsten.sk/),
 which organizes multiple competitions and events concerning mathematics, physics, programming and puzzle hunts.
 I have authored over 200 problems for the correspondence seminar [FKS](https://fks.sk/) and the
-physics competition [Náboj physics](https://physics.naboj.org/).
-In Trojsten I re-developed the way how problems and their solutions are written and published:
+physics competition [Náboj physics](https://physics.naboj.org/), and contributed to the backend as well.
 
-- [`dgs`](https://github.com/trojsten/dgs/), an automated document compositor / templating system.
+- [`dgs`](https://github.com/trojsten/dgs/) is an automated document compositor / templating system.
   Written in `XeLaTeX`, `make` and `Python`, it makes heavy use of `jinja2` templating and `pandoc`.
-  Also used to write and publish handouts and homework for students in a highly structured form.
+  Also used to write and publish handouts and homework sheets for students in a highly structured form.
 - multiple simple simulations that were used in correspondence seminars
   - [`gravity`](http://alchemilka.fks.sk/~sesquideus/orbita/), a 2D solar system simulator (in Slovak) `JavaScript`
   - [`phase-portraits`](http://alchemilka.fks.sk/~sesquideus/fp/), a simulator of simple physical systems and their phase portraits (in Slovak) `JavaScript`
@@ -42,6 +41,7 @@ In Trojsten I re-developed the way how problems and their solutions are written 
 ### Miscellanea
 - [`argparsedirs`](https://github.com/sesquideus/argparsedirs/), a microscopic enhancement to `argparse` that enables using directories as inputs `Python`
 - [`physics-fields`](https://github.com/sesquideus/physics-fields/), a package for evaluating scalar and vector fields `Python`
+- [`scalyca`](https://github.com/sesquideus/scalyca/), a minimalistic framework for console line applications `Python`
 - [`astroworkshop`](https://github.com/sesquideus/astroworkshop/), a simple website for the annual Astroworkshop for students at Comenius University `Python/Django`
 
 <!-- I realized that in highly structured, repetitive documents lots of metadata can be kept in the directory structure itself;
