@@ -41,7 +41,7 @@ physics competition [Náboj physics](https://physics.naboj.org/), and contribute
 ### Miscellanea
 - [`argparsedirs`](https://github.com/sesquideus/argparsedirs/), a microscopic enhancement to `argparse` that enables using directories as inputs `Python`
 - [`physics-fields`](https://github.com/sesquideus/physics-fields/), a package for evaluating scalar and vector fields `Python`
-- [`scalyca`](https://github.com/sesquideus/scalyca/), a minimalistic framework for console line applications `Python`
+- [`scalyca`](https://github.com/sesquideus/scalyca/), a minimalistic framework for console applications `Python`
 - [`astroworkshop`](https://github.com/sesquideus/astroworkshop/), a simple website for the annual Astroworkshop for students at Comenius University `Python/Django`
 
 <!-- I realized that in highly structured, repetitive documents lots of metadata can be kept in the directory structure itself;
