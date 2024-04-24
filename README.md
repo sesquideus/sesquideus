@@ -2,7 +2,7 @@ Welcome to my GitHub profile README. My civil name is Martin Baláž and I can b
 
 - I am an astronomer and software engineer by both profession and passion.
   I like to think I am carefully balancing between physics, applied mathematics and programming.
-- Currently I work as a pipeline developer for METIS, Mid-Infrared [ELT](https://en.wikipedia.org/wiki/Extremely_Large_Telescope)
+- Currently I work as a pipeline developer for METIS, Mid-Infrared [ELT](https://elt.eso.org/)
   Imager and Spectrograph in the [A*V](https://astarvienna.github.io) team at the University of Vienna.
 - In my semi-free time I am also the software lead of the AMOS project at Comenius University
   and I cannot get myself to quit working for the education NGO [Trojsten](https://trojsten.sk/).
