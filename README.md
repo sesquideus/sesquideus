@@ -17,7 +17,7 @@ a network of automated meteor camera stations.
   was used in my master thesis for determination of meteoroid flux and selection bias effects. `Python`, also ported to `C++/Qt`
 - [`AMOS client`](https://github.com/sesquideus/amos-client/), a persistent C++/Qt application that controls the collection of meteor data at remote stations.
   It communicates with a custom board over serial port, starts and stops the camera and sends periodic heartbeats and collected data to the central server `C++/Qt`
-- [`AMOS sightings`](https://github.com/sesquideus/amos-sightings/), a script for local backup of meteor data and reencoding videos `Python`
+- [`wololo`](https://github.com/sesquideus/wololo/), a script for local backup of meteor data and converting video formats `Python`
 - [`AMOS server`](https://github.com/sesquideus/amos-server/), the central website which manages the meteor sighting database and housekeeping data `Python/Django`
 - [`vasco`](https://github.com/sesquideus/vasco/), a virtual all-sky corrector plate for all-sky cameras `Python/PyQt6`
 - [`ubi`](https://github.com/sesquideus/ubi), a kernel density estimation framework for arbitrary metric spaces,
