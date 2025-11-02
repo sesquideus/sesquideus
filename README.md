@@ -1,4 +1,4 @@
-Welcome to my GitHub profile README. My civil name is Martin Baláž and I can be often find under the alias @sesquideus. Everywhere.
+My civil name is Martin Baláž and I can be often find under the alias @sesquideus. Everywhere. Unless it is an impostor.
 
 - I am an astronomer and software engineer by both profession and passion.
   I like to think I am carefully balancing between physics, applied mathematics and programming.
@@ -11,7 +11,7 @@ Welcome to my GitHub profile README. My civil name is Martin Baláž and I can b
 Most of my previous work revolved around meteors, as I did both my masters and PhD in meteor science.
 
 In my semi-free time I am still the software lead of the [AMOS](https://fmph.uniba.sk/en/microsites/daa/division-of-astronomy-and-astrophysics/research/meteors/amos/) project,
-a network of automated meteor camera stations.
+a network of automated meteor camera stations. This requires a lot of different tools:
 
 - [`AMOS client`](https://github.com/AMOS-uniba/amos-client/), a persistent C++/Qt application that controls the collection of meteor data at remote stations.
   It communicates with a custom board over serial port, starts and stops the camera and sends periodic heartbeats and collected data to the central server `C++/Qt`
@@ -20,6 +20,7 @@ a network of automated meteor camera stations.
 - [`asmodeus`](https://github.com/sesquideus/asmodeus/) or All-Sky Meteor Observation Detection Efficiency Simulator, a virtual meteor observatory that
   was used in my master thesis for determination of meteoroid flux and selection bias effects. `Python`, also ported to `C++/Qt`
 - [`vasco`](https://github.com/sesquideus/vasco/), a virtual all-sky corrector plate for all-sky cameras `Python/PyQt6`
+- [`vamos`](https://github.com/sesquideus/vamos/), a virtual meteor video simulator `Python`
 - [`ubi`](https://github.com/sesquideus/ubi), a kernel density estimation framework for arbitrary metric spaces,
   which was the core of my dissertation thesis. There it was used to find the probability density function of incoming meteors.  `C++`
 
