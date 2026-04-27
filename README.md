@@ -17,13 +17,11 @@ a network of automated meteor camera stations. This requires a lot of different 
   It communicates with a custom board over serial port, starts and stops the camera and sends periodic heartbeats and collected data to the central server `C++/Qt`
 - [`AMOS server`](https://github.com/AMOS-uniba/amos-server/), the central website which manages the meteor sighting database and housekeeping data `Python/Django`
 - [`wololo`](https://github.com/AMOS-uniba/wololo/), a script for local backup of meteor data and converting video formats `Python`
-- [`asmodeus`](https://github.com/AMOS-uniba/asmodeus/) or All-Sky Meteor Observation Detection Efficiency Simulator, a virtual meteor observatory that
+- [`asmodeus`](https://github.com/sesquideus/asmodeus/) or All-Sky Meteor Observation Detection Efficiency Simulator, a virtual meteor observatory that
   was used in my master thesis for determination of meteoroid flux and selection bias effects. `Python`, also ported to `C++/Qt`
 - [`demeteor`](https://github.com/AMOS-uniba/demeteor), a set of core functions and algorithms that could be useful to anyone working with meteors `Python`
 - [`vasco`](https://github.com/sesquideus/vasco/), a virtual all-sky corrector plate for all-sky cameras `Python/PyQt6`
 - [`vamos`](https://github.com/sesquideus/vamos/), a virtual meteor video simulator (early stage) `Python`
-- [`ubi`](https://github.com/sesquideus/ubi), a kernel density estimation framework for arbitrary metric spaces,
-  which was the core of my dissertation thesis. There it was used to find the probability density function of incoming meteors.  `C++`
 
 ### Trojsten
 Since the beginning of my bachelor's I have been a part of the NGO [Trojsten](https://trojsten.sk/),
@@ -42,6 +40,8 @@ real-time physics competition [Náboj physics](https://physics.naboj.org/), and 
   - `spectre`, a minimalistic simulator of electromagnetic spectra (not yet finished)  `JavaScript`
 
 ### Miscellanea
+- [`ubi`](https://github.com/sesquideus/ubi), a kernel density estimation framework for arbitrary metric spaces,
+  which was also the core of my dissertation thesis. There it was used to find the probability density function of incoming meteors.  `C++`
 - [`scalyca`](https://github.com/sesquideus/scalyca/), a minimalistic framework for console applications `Python`
 - [`argparsedirs`](https://github.com/sesquideus/argparsedirs/), a microscopic enhancement to `argparse` that enables using directories as inputs `Python`
 - [`demetria`](https://github.com/sesquideus/physics-fields/), a package for evaluating scalar and vector fields `Python`
