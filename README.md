@@ -19,8 +19,9 @@ a network of automated meteor camera stations. This requires a lot of different 
 - [`wololo`](https://github.com/AMOS-uniba/wololo/), a script for local backup of meteor data and converting video formats `Python`
 - [`asmodeus`](https://github.com/sesquideus/asmodeus/) or All-Sky Meteor Observation Detection Efficiency Simulator, a virtual meteor observatory that
   was used in my master thesis for determination of meteoroid flux and selection bias effects. `Python`, also ported to `C++/Qt`
+- [`demeteor`](https://github.com/sesquideus/demeteor), a set of core functions and algorithms that could be useful to anyone working with meteors `Python`
 - [`vasco`](https://github.com/sesquideus/vasco/), a virtual all-sky corrector plate for all-sky cameras `Python/PyQt6`
-- [`vamos`](https://github.com/sesquideus/vamos/), a virtual meteor video simulator `Python`
+- [`vamos`](https://github.com/sesquideus/vamos/), a virtual meteor video simulator (early stage) `Python`
 - [`ubi`](https://github.com/sesquideus/ubi), a kernel density estimation framework for arbitrary metric spaces,
   which was the core of my dissertation thesis. There it was used to find the probability density function of incoming meteors.  `C++`
 
@@ -30,7 +31,7 @@ which organizes multiple competitions and events concerning mathematics, physics
 I have authored over 200 problems for the physics correspondence seminar [FKS](https://fks.sk/) and the
 real-time physics competition [Náboj physics](https://physics.naboj.org/), and contributed to the backend as well.
 
-- [`dgs`](https://github.com/trojsten/dgs/) is an automated document compositor / templating system.
+- [Document Generating System `dgs`](https://github.com/trojsten/dgs/) is an automated document compositor / templating system.
   Written in `XeLaTeX`, `make` and `Python`, it also makes heavy use of `jinja2` templating and `pandoc`.
   Used by both FKS and Náboj physics and also to publish handouts and homework sheets for students,
   although it can handle virtually any documents in a highly structured form.
@@ -43,8 +44,9 @@ real-time physics competition [Náboj physics](https://physics.naboj.org/), and 
 ### Miscellanea
 - [`scalyca`](https://github.com/sesquideus/scalyca/), a minimalistic framework for console applications `Python`
 - [`argparsedirs`](https://github.com/sesquideus/argparsedirs/), a microscopic enhancement to `argparse` that enables using directories as inputs `Python`
-- [`physics-fields`](https://github.com/sesquideus/physics-fields/), a package for evaluating scalar and vector fields `Python`
+- [`demetria`](https://github.com/sesquideus/physics-fields/), a package for evaluating scalar and vector fields `Python`
 - [`astroworkshop`](https://github.com/sesquideus/astroworkshop/), a simple website for the annual Astroworkshop for students at Comenius University `Python/Django`
+- [`treeline`](https://github.com/sesquideus/treeline/), a database of world's peaks, along with their key cols, prominence and isolation hierarchy `Python/Django`
 
 <!-- I realized that in highly structured, repetitive documents lots of metadata can be kept in the directory structure itself;
 that many parts can (and _should_) be highly reusable; and most importantly that there should be a single source of truth.
